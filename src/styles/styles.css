@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.middle-section-hero-mobile {
+    height: calc(100vh - 30vh) !important;
+}
+.middle-section-hero {
+    height: calc(100vh - 60px) !important;
+}
+
+.section-hero-linear-gradient {
+    background: linear-gradient(90deg, rgba(204,255,244,1) 0%, rgba(158,165,255,1) 100%);
+}
+
+.middle-course-description {
+    height: calc(100vh - 100px)
+}
+
+.bgShadowCourse {
+    box-shadow: inset 600px 0px 100px 0px rgba(0,0,0,0.8),inset 0px -200px 100px 0px rgba(0,0,0,0.8);
+}
+
+.shadowHeader {
+    box-shadow: inset 0px 40px 40px 0px rgba(0,0,0,0.8);
+}
+
+@media only screen and (min-width: 768px) {
+    .media-queries {
+        background-color: brown;
+    }
+}

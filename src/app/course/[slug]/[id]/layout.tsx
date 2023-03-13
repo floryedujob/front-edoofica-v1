@@ -1,7 +1,4 @@
-// import '../styles/styles.css';
-import '../styles/styles.css';
-
-import { AppProvider } from '../providers'
+import { CourseLayout } from '@layouts';
 
 
 export const metadata = {
@@ -17,9 +14,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        <AppProvider>
-          {children}
-        </AppProvider>
+        {children}
       </body>
     </html>
   )
